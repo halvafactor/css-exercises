@@ -1,1 +1,34 @@
-/* Add CSS Styling */
+.regular-class,
+.cool-class {
+    background-color: #ffc0cb;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cool-class {
+    font-size: 24px;
+}
+
+#big-id {
+   color: #0000ff;
+   font-size: 36px;
+}
+
+#bold-id {
+    background-color: #85f185;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* There is another way to group rules that reduces duplicate code
+
+.class {background-color: #ffc0cb;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+and remove font-size rule from #bold-id
+
+see comments in html */
